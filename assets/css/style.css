@@ -1,0 +1,68 @@
+.header {
+    background-color: #00a0d8;
+    color: #f8f9fa;
+}
+
+.gameBox {
+    color: lightgray;
+    background-color: #00a0d8;
+    Padding:20px;
+
+    
+}
+
+.rules {
+    background-color: #e1445e;
+    max-width:500px;
+    padding: 10px;
+    float: left;
+    margin: 0px 20px 20px 0px;
+    
+}
+
+.floatReset {
+    clear: both;
+}
+
+.scoreboard {
+    background-color: grey;
+    max-width: 400px;
+    float: left;
+    padding: 10px;
+}
+
+.randomNumber {
+    background-color: grey;
+    width: 400px;
+    float: left;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.images {
+    height:100px;
+}
+
+.runningScore {
+    float: left;
+}
+
+.roundScore {
+    background-color: grey;
+    width: 100px;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 992px) {
+    .images {
+        height: 75px;
+        float: left;
+    }
+}
+
+@media only screen and (max-width: 551px) {
+    .images {
+        height: 50px;
+        float: left;
+    }
+}
