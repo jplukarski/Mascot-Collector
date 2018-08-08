@@ -41,27 +41,30 @@
                 </div>
             </div>
             <div class="randomNumber">
+                <button onclick="javascript: startGame()" class="startButton">Start
+                </button>
                 <div>House Number</div>
-                <div>0</div>
+                <div class="currentNumber"></div>
             </div>
         </div>
         <div class="floatReset"></div>
         <div class="col-md-3">
-            <img class="images" src="assets/images/white-sox.jpeg">
+            <img id="whiteSoxLogo" class="images" src="assets/images/white-sox.jpeg" alt="Go White Sox!">
         </div>
         <div class="col-md-3">
-            <img class="images" src="assets/images/bears.jpeg">
+            <img id="daBearsLogo" class="images" src="assets/images/bears.jpeg" alt="Go Bears!">
         </div>
         <div class="col-md-3">
-            <img class="images" src="assets/images/Bulls.jpeg">
+            <img id="daBullsLogo" class="images" src="assets/images/Bulls.jpeg">
         </div>
         <div class="col-md-3">
-            <img class="images" src="assets/images/bhawks.jpeg">
+            <img id="blackHawksLogo" class="images" src="assets/images/bhawks.jpeg">
         </div>
         <div class="floatReset"></div>
-        <div class="roundScore">
-            <div>Total score this round:</div>
-            <div>0</div>
+        <div>
+            <div class="totalScoreHeader">Total score this round:</div>
+
+            <div class="roundScore"></div>
         </div>
     </div>
 </body>
