@@ -1,4 +1,9 @@
-    .header {
+body {
+    background-image: url(../images/chicagoskyline.jpeg);
+    background-repeat: no-repeat;
+}
+
+.header {
     background-color: #00a0d8;
     color: #f8f9fa;
 }
@@ -12,11 +17,11 @@
 }
 
 .rules {
-    background-color: #e1445e;
+    background-color: #dd4148;
     max-width:500px;
     padding: 10px;
     float: left;
-    margin: 0px 20px 20px 0px;
+    margin: 0px 10px 20px 0px;
     
 }
 
@@ -24,19 +29,14 @@
     clear: both;
 }
 
-.scoreboard {
-    background-color: grey;
-    max-width: 400px;
-    float: left;
-    padding: 10px;
-}
+
 
 .randomNumber {
     background-color: grey;
-    width: 400px;
     float: left;
-    padding: 10px;
-    margin-top: 20px;
+    margin-left:10px;
+    margin-right:10px;
+    padding: 0px 10px 20px 10px;
 }
 
 .images {
@@ -47,18 +47,17 @@
 
 .runningScore {
     float: left;
+    background-color: gray;
+    padding: 0px 10px 40px 10px;
 }
 
 .roundScore {
-    background-color: grey;
-    width: 150px;
-    margin-top: 20px;
-    padding:10px;
+    background-color: #dd4148;
+    padding:20px;
 }
 
 .totalScoreHeader {
     background-color: grey;
-    width: 150px;
     padding:10px;
 }
 
@@ -70,12 +69,20 @@
     .images {
         height: 75px;
         float: left;
+        margin: 10px;
     }
 }
 
-@media only screen and (max-width: 551px) {
-    .images {
-        height: 50px;
-        float: left;
+
+
+@media only screen and (max-width: 597px) {
+    .roundScore {
+        padding-bottom:40px;
+    }
+}
+
+@media only screen and (max-width: 588px) {
+    .roundScore {
+        padding-bottom:60px;
     }
 }

@@ -30,22 +30,27 @@
             <div>The value of each mascot is hidden from you until you slick on it</div>
             <div>Each time the game starts, the game will change the values of the mascots</div>
         </div>
-        <div class="container col-md-3">
-            <div class="scoreboard">
-                <div class="runningScore">Wins
-                    <div>0</div>
-                </div>
-                <br>
-                <div class="runningScore">Loses
-                    <div>0</div>
-                </div>
+
+        <div class="scoreboard">
+            <div class="runningScore">Wins
+                <div class="wins">0</div>
             </div>
+
+            <div class="runningScore">Loses
+                <div class="loses">0</div>
+            </div>
+
             <div class="randomNumber">
                 <button onclick="javascript: startGame()" class="startButton">Start
                 </button>
                 <div>House Number</div>
-                <div class="currentNumber"></div>
+                <div class="currentNumber">0</div>
             </div>
+        </div>
+        <div class="container">
+            <div class="totalScoreHeader col-md-2 col-sm-2 col-xs-2">Total score
+                <br> this round:</div>
+            <div class="roundScore col-md-2 col-sm-2 col-xs-2">0</div>
         </div>
         <div class="floatReset"></div>
         <div class="col-md-3">
@@ -61,11 +66,6 @@
             <img id="blackHawksLogo" class="images" src="assets/images/bhawks.jpeg">
         </div>
         <div class="floatReset"></div>
-        <div>
-            <div class="totalScoreHeader">Total score this round:</div>
-
-            <div class="roundScore"></div>
-        </div>
     </div>
 </body>
 
