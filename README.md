@@ -2,7 +2,7 @@
 A number guessing game with a Chicago Sports theme
 
 ## Live Link
-https://jplukarski.github.io/unit-4-game/index.html
+https://jplukarski.github.io/Mascot-Collector/index.html
 
 ## Built With
 
